@@ -1,0 +1,18 @@
+[
+  {
+    "email": "spam1.txt",
+    "classification": {
+      "spam_score": 0,
+      "reasoning": "Error occurred",
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "mail1.txt",
+    "classification": {
+      "spam_score": 0,
+      "reasoning": "Error occurred",
+      "recommendation": "discard"
+    }
+  }
+]
