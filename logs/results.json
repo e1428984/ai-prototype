@@ -3,16 +3,16 @@
     "email": "spam1.txt",
     "classification": {
       "spam_score": 0,
-      "reasoning": "Error occurred",
+      "reasoning": "This message is likely spam as it announces a prize. Responding with 0.",
       "recommendation": "discard"
     }
   },
   {
     "email": "mail1.txt",
     "classification": {
-      "spam_score": 0,
-      "reasoning": "Error occurred",
-      "recommendation": "discard"
+      "spam_score": 1,
+      "reasoning": "This message conveys a legitimate reminder about a meeting, which is not indicative of spam, so I will respond with 1.",
+      "recommendation": "forward"
     }
   }
 ]

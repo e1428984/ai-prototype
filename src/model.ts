@@ -37,5 +37,22 @@ Email content: """${emailText}"""
     await Deno.stdout.write(textEncoder.encode(chunk.message?.content ?? ""));
     full += chunk.message?.content ?? "";
   }
-  console.log(full);
+
+  // Manual parsing of streamed output
+  // Extract reasoning between <think>...</think>
+  const thinkMatch = full.match(/<think>([\s\S]*?)<\/think>/);
+  const reasoning = thinkMatch ? thinkMatch[1].trim() : "No reasoning provided";
+
+  // Extract final numeric answer (0 or 1)
+  const scoreMatch = full.match(/([01])\s*$/m);
+  const spam_score = scoreMatch ? Number(scoreMatch[1]) : 0;
+
+  // Recommendation based on score (since Ollama didn't output it)
+  const recommendation = spam_score === 1 ? "forward" : "discard";
+
+  return {
+    spam_score,
+    reasoning,
+    recommendation,
+  };
 }
