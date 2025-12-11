@@ -1,8 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-write --allow-read --allow-run src/main.ts"
+    "dev": "deno run --watch --allow-write --allow-net --allow-read --allow-run src/main.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "ollama": "npm:ollama"
   }
 }

@@ -2,10 +2,11 @@
 import { classifyEmail } from "./model.ts";
 
 const emailsFolder = "./emails";
-const logFile = "./logs/results.json";
+const logsFolder = "./logs";
+const logFile = `${logsFolder}/results.json`;
 
 // Ensure logs folder exists
-await Deno.mkdir("./logs", { recursive: true });
+await Deno.mkdir(logsFolder, { recursive: true });
 
 const results: Array<{ email: string; classification: any }> = [];
 
@@ -19,7 +20,7 @@ for await (const entry of Deno.readDir(emailsFolder)) {
 
     results.push({
       email: entry.name,
-      classification: JSON.parse(classification),
+      classification,
     });
   }
 }

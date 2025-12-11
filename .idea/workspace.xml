@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c667eaad-3e13-4669-b58d-676f3ed8fa71" name="Changes" comment="" />
+    <list default="true" id="c667eaad-3e13-4669-b58d-676f3ed8fa71" name="Changes" comment="add permissions">
+      <change afterPath="$USER_HOME$/WebstormProjects/aiprototype/deno.lock" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/aiprototype/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/aiprototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/aiprototype/deno.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/aiprototype/deno.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/aiprototype/src/model.ts" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/aiprototype/src/model.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/aiprototype" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;e1428984&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/e1428984/ai-prototype.git&quot;,
+    &quot;accountId&quot;: &quot;89b09cec-be21-4d64-b502-94ac9a529802&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -29,23 +50,46 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;deno.use.library&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Deno.Deno: main.ts (2).executor": "Run",
+    "Deno.Deno: main.ts.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "deno.use.library": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/taras/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/WebstormProjects/aiprototype/src" />
       <recent name="$USER_HOME$/WebstormProjects/aiprototype" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" programParameters="dev" workingDirectory="$USER_HOME$/WebstormProjects/aiprototype/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" programParameters="run --watch --allow-write --allow-read --allow-run" workingDirectory="$USER_HOME$/WebstormProjects/aiprototype/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Deno.Deno: main.ts" />
+        <item itemvalue="Deno.Deno: main.ts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -62,11 +106,34 @@
       <option name="presentableId" value="Default" />
       <updated>1764874931358</updated>
       <workItem from="1764874932458" duration="254000" />
-      <workItem from="1764875218506" duration="44000" />
+      <workItem from="1764875218506" duration="922000" />
+      <workItem from="1765476216920" duration="3653000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1764875313194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764875313194</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add permissions">
+      <option name="closed" value="true" />
+      <created>1764875511057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764875511057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add permissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add permissions" />
   </component>
 </project>
