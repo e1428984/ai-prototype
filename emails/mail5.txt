@@ -1,0 +1,9 @@
+Subject: Technical Issue Resolved
+
+Hi team,
+
+The server outage from this morning has been resolved.
+If you still experience issues, please restart your system.
+
+Regards,
+IT Support

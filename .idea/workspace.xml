@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c667eaad-3e13-4669-b58d-676f3ed8fa71" name="Changes" comment="added ollama call">
-      <change beforePath="$USER_HOME$/WebstormProjects/aiprototype/logs/results.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProjects/aiprototype/logs/results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/val.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/mail9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emails/spam9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/aggregation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aggregate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/embeddings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eval_train.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predict.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/run_all.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deno.json" beforeDir="false" afterPath="$PROJECT_DIR$/deno.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deno.lock" beforeDir="false" afterPath="$PROJECT_DIR$/deno.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/aiprototype" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -31,9 +68,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/e1428984/ai-prototype.git&quot;,
-    &quot;accountId&quot;: &quot;89b09cec-be21-4d64-b502-94ac9a529802&quot;
+    &quot;accountId&quot;: &quot;86e10642-c1b2-4efd-a9af-4641de06dfca&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,54 +86,54 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Deno.Deno: main.ts (2).executor": "Run",
-    "Deno.Deno: main.ts.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deno.use.library": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/taras/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Deno.Deno: main.ts (2).executor&quot;: &quot;Run&quot;,
+    &quot;Deno.Deno: main.ts.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.main.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;deno.use.library&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\akula\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/WebstormProjects/aiprototype/src" />
-      <recent name="$USER_HOME$/WebstormProjects/aiprototype" />
+      <recent name="$PROJECT_DIR$/../aiprototype/src" />
+      <recent name="$PROJECT_DIR$/../aiprototype" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" programParameters="dev" workingDirectory="$USER_HOME$/WebstormProjects/aiprototype/src">
+    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$PROJECT_DIR$/../aiprototype/src/main.ts" programParameters="dev" workingDirectory="$PROJECT_DIR$/../aiprototype/src">
       <method v="2" />
     </configuration>
-    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$USER_HOME$/WebstormProjects/aiprototype/src/main.ts" programParameters="run --watch --allow-write --allow-read --allow-run" workingDirectory="$USER_HOME$/WebstormProjects/aiprototype/src">
+    <configuration name="Deno: main.ts" type="DenoConfigurationType" temporary="true" nameIsGenerated="true" inputPath="$PROJECT_DIR$/../aiprototype/src/main.ts" programParameters="run --watch --allow-write --allow-read --allow-run" workingDirectory="$PROJECT_DIR$/../aiprototype/src">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Deno.Deno: main.ts" />
-        <item itemvalue="Deno.Deno: main.ts" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c667eaad-3e13-4669-b58d-676f3ed8fa71" name="Changes" comment="" />
@@ -104,6 +144,11 @@
       <workItem from="1764874932458" duration="254000" />
       <workItem from="1764875218506" duration="922000" />
       <workItem from="1765476216920" duration="3955000" />
+      <workItem from="1765491705568" duration="1554000" />
+      <workItem from="1765552406245" duration="18739000" />
+      <workItem from="1765612040057" duration="415000" />
+      <workItem from="1765615261181" duration="10922000" />
+      <workItem from="1765636350558" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

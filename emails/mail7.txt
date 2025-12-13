@@ -1,0 +1,9 @@
+Subject: Updated Documentation
+
+Hi Max,
+
+I’ve uploaded the latest version of the API documentation to the shared folder.
+Let me know if you have any questions before the release.
+
+Regards,
+Tom

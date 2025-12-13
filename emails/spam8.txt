@@ -1,0 +1,6 @@
+Subject: Suspicious Login Detected
+
+Your account has shown unusual login activity.
+To prevent unauthorized access, please confirm your identity immediately:
+
+http://secure-verify-login.example.com

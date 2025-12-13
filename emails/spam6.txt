@@ -1,0 +1,10 @@
+Subject: You Are Owed a Tax Refund!
+
+Dear Citizen,
+
+Our system shows that you are owed a tax refund of €750.
+Claim your refund now by completing the verification form:
+
+http://gov-refund-secure-example.com
+
+Failure to act will result in forfeiture of funds.

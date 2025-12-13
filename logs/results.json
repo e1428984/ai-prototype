@@ -1,18 +1,142 @@
 [
   {
+    "email": "mail1.txt",
+    "classification": {
+      "ham_score": 0.9999759258095791,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail10.txt",
+    "classification": {
+      "ham_score": 0.9997565067508637,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail2.txt",
+    "classification": {
+      "ham_score": 0.9998690093752785,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail3.txt",
+    "classification": {
+      "ham_score": 0.9998019931406242,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail4.txt",
+    "classification": {
+      "ham_score": 0.9992922245760216,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail5.txt",
+    "classification": {
+      "ham_score": 0.6258489059125549,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail6.txt",
+    "classification": {
+      "ham_score": 0.9999428590757871,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail7.txt",
+    "classification": {
+      "ham_score": 0.9904894113091471,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail8.txt",
+    "classification": {
+      "ham_score": 0.9999059232169386,
+      "recommendation": "forward"
+    }
+  },
+  {
+    "email": "mail9.txt",
+    "classification": {
+      "ham_score": 0.9999829521242645,
+      "recommendation": "forward"
+    }
+  },
+  {
     "email": "spam1.txt",
     "classification": {
-      "spam_score": 0,
-      "reasoning": "This message is likely spam as it announces a prize. Responding with 0.",
+      "ham_score": 0.0012820221422479214,
       "recommendation": "discard"
     }
   },
   {
-    "email": "mail1.txt",
+    "email": "spam10.txt",
     "classification": {
-      "spam_score": 1,
-      "reasoning": "This message conveys a legitimate reminder about a meeting, which is not indicative of spam, so I will respond with 1.",
-      "recommendation": "forward"
+      "ham_score": 0.0002911326581364449,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam2.txt",
+    "classification": {
+      "ham_score": 0.0009851241684520255,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam3.txt",
+    "classification": {
+      "ham_score": 0.0021410624883929116,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam4.txt",
+    "classification": {
+      "ham_score": 0.016177677438421096,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam5.txt",
+    "classification": {
+      "ham_score": 0.04569196394791686,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam6.txt",
+    "classification": {
+      "ham_score": 0.007128196991751562,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam7.txt",
+    "classification": {
+      "ham_score": 0.04055614879865632,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam8.txt",
+    "classification": {
+      "ham_score": 0.044082450873496784,
+      "recommendation": "discard"
+    }
+  },
+  {
+    "email": "spam9.txt",
+    "classification": {
+      "ham_score": 0.03223312373419925,
+      "recommendation": "discard"
     }
   }
 ]

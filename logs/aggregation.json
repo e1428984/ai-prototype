@@ -1,0 +1,242 @@
+[
+  {
+    "email": "mail1.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is an automated response to remind someone of a future event, which typically does not require further action beyond forwarding it to relevant recipients.",
+    "scores": [
+      0.9999759258095791,
+      0.9999759258095791,
+      0.9999759258095791,
+      0.9999759258095791,
+      0.9999759258095791
+    ]
+  },
+  {
+    "email": "mail10.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it appears to be a generic check-in message that could have been sent by any employee, not specifically for spam classification.",
+    "scores": [
+      0.9997565067508637,
+      0.9997565067508637,
+      0.9997565067508637,
+      0.9997565067508637,
+      0.9997565067508637
+    ]
+  },
+  {
+    "email": "mail2.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is a forward message, typically used for sharing documents or information with others.",
+    "scores": [
+      0.9998690093752785,
+      0.9998690093752785,
+      0.9998690093752785,
+      0.9998690093752785,
+      0.9998690093752785
+    ]
+  },
+  {
+    "email": "mail3.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is a forward message, typically sent to someone else's address rather than being intended for the recipient directly.",
+    "scores": [
+      0.9998019931406242,
+      0.9998019931406242,
+      0.9998019931406242,
+      0.9998019931406242,
+      0.9998019931406242
+    ]
+  },
+  {
+    "email": "mail4.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is a forwarded message.",
+    "scores": [
+      0.9992922245760216,
+      0.9992922245760216,
+      0.9992922245760216,
+      0.9992922245760216,
+      0.9992922245760216
+    ]
+  },
+  {
+    "email": "mail5.txt",
+    "final": "forward",
+    "reasoning": "This email is classified as \"forward\" because it appears to be a forwarded message with no original content or purpose.",
+    "scores": [
+      0.6258489059125549,
+      0.6258489059125549,
+      0.6258489059125549,
+      0.6258489059125549,
+      0.6258489059125549
+    ]
+  },
+  {
+    "email": "mail6.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is a forward message, likely sent by someone forwarding an original email.",
+    "scores": [
+      0.9999428590757871,
+      0.9999428590757871,
+      0.9999428590757871,
+      0.9999428590757871,
+      0.9999428590757871
+    ]
+  },
+  {
+    "email": "mail7.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is a forwarded message.",
+    "scores": [
+      0.9904894113091471,
+      0.9904894113091471,
+      0.9904894113091471,
+      0.9904894113091471,
+      0.9904894113091471
+    ]
+  },
+  {
+    "email": "mail8.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it is an invitation to a team lunch that has already been planned and announced, likely sent by Priya.",
+    "scores": [
+      0.9999059232169386,
+      0.9999059232169386,
+      0.9999059232169386,
+      0.9999059232169386,
+      0.9999059232169386
+    ]
+  },
+  {
+    "email": "mail9.txt",
+    "final": "forward",
+    "reasoning": "The email was classified as \"forward\" because it contains a forward message, likely sent to multiple recipients.",
+    "scores": [
+      0.9999829521242645,
+      0.9999829521242645,
+      0.9999829521242645,
+      0.9999829521242645,
+      0.9999829521242645
+    ]
+  },
+  {
+    "email": "spam1.txt",
+    "final": "discard",
+    "reasoning": "This email was classified as \"discard\" because it contains a phishing scam that offers free iPhones without requiring any action from the recipient. The link provided is designed to trick users into clicking on it and providing their personal information, which could be used for identity theft or other malicious purposes.",
+    "scores": [
+      0.0012820221422479214,
+      0.0012820221422479214,
+      0.0012820221422479214,
+      0.0012820221422479214,
+      0.0012820221422479214
+    ]
+  },
+  {
+    "email": "spam10.txt",
+    "final": "discard",
+    "reasoning": "The email is classified as \"discard\" because it appears to be a fraudulent offer for an immediate cash reward, urging the recipient to click on a link and provide personal information without verification.",
+    "scores": [
+      0.0002911326581364449,
+      0.0002911326581364449,
+      0.0002911326581364449,
+      0.0002911326581364449,
+      0.0002911326581364449
+    ]
+  },
+  {
+    "email": "spam2.txt",
+    "final": "discard",
+    "reasoning": "The email is classified as \"discard\" because it contains a phishing attempt with a fake account suspension notice and a malicious link.",
+    "scores": [
+      0.0009851241684520255,
+      0.0009851241684520255,
+      0.0009851241684520255,
+      0.0009851241684520255,
+      0.0009851241684520255
+    ]
+  },
+  {
+    "email": "spam3.txt",
+    "final": "discard",
+    "reasoning": "The email contains a phishing link that attempts to trick the recipient into revealing personal information. This is classified as \"discard\" because it's likely spam and should be ignored.",
+    "scores": [
+      0.0021410624883929116,
+      0.0021410624883929116,
+      0.0021410624883929116,
+      0.0021410624883929116,
+      0.0021410624883929116
+    ]
+  },
+  {
+    "email": "spam4.txt",
+    "final": "discard",
+    "reasoning": "The email is a phishing scam promoting fraudulent job opportunities, so it was classified as \"discard\".",
+    "scores": [
+      0.016177677438421096,
+      0.016177677438421096,
+      0.016177677438421096,
+      0.016177677438421096,
+      0.016177677438421096
+    ]
+  },
+  {
+    "email": "spam5.txt",
+    "final": "discard",
+    "reasoning": "The email contains a request for immediate action and is not relevant, so it should be discarded.",
+    "scores": [
+      0.04569196394791686,
+      0.04569196394791686,
+      0.04569196394791686,
+      0.04569196394791686,
+      0.04569196394791686
+    ]
+  },
+  {
+    "email": "spam6.txt",
+    "final": "discard",
+    "reasoning": "The email is classified as \"discard\" because it appears to be a fraudulent spam message promoting a nonexistent tax refund scam.",
+    "scores": [
+      0.007128196991751562,
+      0.007128196991751562,
+      0.007128196991751562,
+      0.007128196991751562,
+      0.007128196991751562
+    ]
+  },
+  {
+    "email": "spam7.txt",
+    "final": "discard",
+    "reasoning": "The email contains a phishing attempt to trick recipients into revealing personal information.",
+    "scores": [
+      0.04055614879865632,
+      0.04055614879865632,
+      0.04055614879865632,
+      0.04055614879865632,
+      0.04055614879865632
+    ]
+  },
+  {
+    "email": "spam8.txt",
+    "final": "discard",
+    "reasoning": "The email is classified as \"discard\" because it appears to be a phishing attempt asking for immediate action.",
+    "scores": [
+      0.044082450873496784,
+      0.044082450873496784,
+      0.044082450873496784,
+      0.044082450873496784,
+      0.044082450873496784
+    ]
+  },
+  {
+    "email": "spam9.txt",
+    "final": "discard",
+    "reasoning": "The email is a phishing scam promoting fraudulent work-from-home opportunities, so it should be discarded.",
+    "scores": [
+      0.03223312373419925,
+      0.03223312373419925,
+      0.03223312373419925,
+      0.03223312373419925,
+      0.03223312373419925
+    ]
+  }
+]

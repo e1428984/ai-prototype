@@ -1,0 +1,7 @@
+Subject: Final Notice - Overdue Payment
+
+We attempted to charge your card but failed.
+You must update your billing information immediately or face penalties.
+
+Update your card here:
+http://billing-update.example.com
